@@ -63,15 +63,15 @@ section{position:relative;z-index:1}
 
 /* ── NAV ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(10,10,10,.88);backdrop-filter:blur(24px);border-bottom:1px solid rgba(255,140,0,.12);padding:0 22px}
-.nav-inner{max-width:1020px;margin:0 auto;height:64px;display:flex;align-items:center;justify-content:space-between}
-.nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
-.nav-logo img{height:42px;width:42px;border-radius:9px;object-fit:cover;border:1.5px solid rgba(255,140,0,.3)}
-.nav-logo-text{font-weight:900;font-size:18px;color:var(--blanc);letter-spacing:.04em;font-style:italic}
+.nav-inner{max-width:1020px;margin:0 auto;height:72px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:14px;text-decoration:none}
+.nav-logo img{height:54px;width:54px;border-radius:10px;object-fit:cover;border:2px solid rgba(255,140,0,.4);box-shadow:0 0 16px rgba(255,140,0,.25)}
+.nav-logo-text{font-weight:900;font-size:24px;color:var(--blanc);letter-spacing:.05em;font-style:italic}
 .nav-logo-text span{color:var(--or)}
 .nav-badge{font-family:'Space Mono',monospace;font-size:11px;color:var(--or);border:1px solid rgba(255,140,0,.3);padding:5px 13px;border-radius:20px;background:rgba(255,140,0,.07)}
 
 /* ── URGENCY BAND ── */
-.urgency-band{background:linear-gradient(135deg,#b85e00,#FF8C00,#b85e00);padding:11px 22px;text-align:center;margin-top:64px;overflow:hidden}
+.urgency-band{background:linear-gradient(135deg,#b85e00,#FF8C00,#b85e00);padding:11px 22px;text-align:center;margin-top:72px;overflow:hidden}
 .urgency-band p{font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:#000;letter-spacing:.04em;line-height:1.6;word-break:break-word}
 .urgency-band span{background:rgba(0,0,0,.2);padding:1px 8px;border-radius:3px;white-space:nowrap;display:inline-block}
 
@@ -278,8 +278,8 @@ footer a{color:var(--or);text-decoration:none}
   /* Nav */
   nav{padding:0 16px}
   .nav-inner{height:56px}
-  .nav-logo img{height:36px;width:36px}
-  .nav-logo-text{font-size:15px}
+  .nav-logo img{height:38px;width:38px}
+  .nav-logo-text{font-size:17px}
   .nav-badge{display:none}
   .urgency-band{margin-top:56px;padding:9px 14px}
   .urgency-band p{font-size:9px;letter-spacing:.01em;line-height:1.6}
@@ -446,14 +446,14 @@ footer a{color:var(--or);text-decoration:none}
 
 <!-- STICKY CTA -->
 <div id="sticky">
-  <span class="sp" id="sticky-price">17 500 FCFA</span>
-  <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=17500" id="sticky-wave" class="btn btn-or-sm">Payer Wave</a>
+  <span class="sp" id="sticky-price">19 900 FCFA</span>
+  <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19900" id="sticky-wave" class="btn btn-or-sm">Payer Wave</a>
   <a href="https://wa.me/221769929371" class="btn btn-or-sm" style="background:#25D366;color:#000;box-shadow:0 0 14px rgba(37,211,102,.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> WA</a>
 </div>
 
 <!-- URGENCE -->
 <div class="urgency-band">
-  <p>OFFRE LIMITÉE — <span id="ub-price">17 500 FCFA aujourd'hui</span> — Le prix augmente chaque jour — Places limitées</p>
+  <p>OFFRE LIMITÉE — <span id="ub-price">19 900 FCFA aujourd'hui</span> — Le prix augmente chaque jour — Places limitées</p>
 </div>
 
 <!-- ═══════════ HERO ═══════════ -->
@@ -467,7 +467,7 @@ footer a{color:var(--or);text-decoration:none}
     </h1>
     <p class="hero-sub">En <strong>30 jours chrono</strong>, même si tu pars de zéro en Afrique</p>
     <div class="hero-ctas">
-      <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=17500" class="btn btn-or" id="hero-wave-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> Rejoindre — 17 500 FCFA</a>
+      <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19900" class="btn btn-or" id="hero-wave-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> Rejoindre — 19 900 FCFA</a>
       <a href="https://wa.me/221769929371" class="btn btn-wa"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Groupe WhatsApp</a>
     </div>
     <div class="hero-kpis">
@@ -532,8 +532,8 @@ footer a{color:var(--or);text-decoration:none}
     <div class="sol-layout">
       <div class="sol-box fu d1">
         <div class="sol-pill">Accès immédiat</div>
-        <div class="sol-pold">35 000 FCFA</div>
-        <div class="sol-pbig" id="sol-price">17 500</div>
+        <div class="sol-pold">45 000 FCFA</div>
+        <div class="sol-pbig" id="sol-price">19 900</div>
         <div class="sol-punit">FCFA — Prix lancement</div>
         <div class="sol-feats">
           <div class="sol-feat"><span class="sol-check">✓</span>Formation 4 semaines complète</div>
@@ -542,7 +542,7 @@ footer a{color:var(--or);text-decoration:none}
           <div class="sol-feat"><span class="sol-check">✓</span>Accompagnement personnalisé</div>
           <div class="sol-feat"><span class="sol-check">✓</span>Stratégies marché africain</div>
         </div>
-        <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=17500" class="btn btn-or" style="width:100%;justify-content:center;margin-top:26px;" id="sol-wave-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> Commencer maintenant</a>
+        <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19900" class="btn btn-or" style="width:100%;justify-content:center;margin-top:26px;" id="sol-wave-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> Commencer maintenant</a>
       </div>
       <div class="sol-text fu d2">
         <h3>Conçue pour le marché africain</h3>
@@ -677,23 +677,23 @@ footer a{color:var(--or);text-decoration:none}
       <div class="pl-row active">
         <div class="pl-day now">Aujourd'hui</div>
         <div>
-          <div class="pl-old">35 000 FCFA</div>
-          <span class="pl-price" id="main-price">17 500</span><span class="pl-cur">FCFA</span>
+          <div class="pl-old">45 000 FCFA</div>
+          <span class="pl-price" id="main-price">19 900</span><span class="pl-cur">FCFA</span>
         </div>
         <div>
-          <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=17500" class="btn btn-or pl-cta-btn" id="main-wave-btn" style="width:100%;justify-content:center;font-size:13px;padding:14px 16px;">Je profite — 17 500 FCFA</a>
+          <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19900" class="btn btn-or pl-cta-btn" id="main-wave-btn" style="width:100%;justify-content:center;font-size:13px;padding:14px 16px;">Je profite — 19 900 FCFA</a>
           <p class="pl-sub">Accès immédiat après paiement</p>
         </div>
       </div>
       <div class="pl-row future">
-        <div class="pl-day later">Demain</div>
-        <div><div class="pl-fp">19 500 FCFA</div></div>
-        <div><span class="fl">Prix demain matin</span></div>
+        <div class="pl-day later">Dans 2 jours</div>
+        <div><div class="pl-fp">23 900 FCFA</div></div>
+        <div><span class="fl">Prix dans 2 jours</span></div>
       </div>
       <div class="pl-row future">
-        <div class="pl-day red">Après-demain</div>
-        <div><div class="pl-fp" style="color:#ff7070;">23 500 FCFA</div></div>
-        <div><span class="fl" style="color:#ff7070;">Prix après-demain</span></div>
+        <div class="pl-day red">Dans 4–5 jours</div>
+        <div><div class="pl-fp" style="color:#ff7070;">27 900 FCFA</div></div>
+        <div><span class="fl" style="color:#ff7070;">Prix dans 4 jours</span></div>
       </div>
     </div>
 
@@ -718,7 +718,7 @@ footer a{color:var(--or);text-decoration:none}
           <p style="font-size:13px;color:#25D366;font-weight:700;margin-bottom:3px;">+ Accès groupe WhatsApp privé</p>
           <p style="font-size:12px;color:var(--gris);">Communauté active + Q&amp;A hebdomadaire</p>
         </div>
-        <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=17500" class="btn btn-or" style="width:100%;justify-content:center;padding:17px;" id="offer-wave-btn2"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> Payer Wave — <span id="offer-pl">17 500</span> FCFA</a>
+        <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19900" class="btn btn-or" style="width:100%;justify-content:center;padding:17px;" id="offer-wave-btn2"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> Payer Wave — <span id="offer-pl">19 900</span> FCFA</a>
 
 
 
@@ -778,7 +778,7 @@ footer a{color:var(--or);text-decoration:none}
       <p>Rejoins maintenant avant que le prix augmente demain.</p>
     </div>
     <div class="cta-stack fu d1">
-      <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=17500" class="btn btn-or" style="font-size:17px;padding:20px 48px;" id="final-wave-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> S'inscrire — <span id="final-pl">17 500</span> FCFA</a>
+      <a href="https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19900" class="btn btn-or" style="font-size:17px;padding:20px 48px;" id="final-wave-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg> S'inscrire — <span id="final-pl">19 900</span> FCFA</a>
       <div class="or-div">— OU —</div>
       <a href="https://wa.me/221769929371" class="btn btn-wa" style="font-size:15px;padding:17px 40px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> Rejoindre le groupe WhatsApp privé</a>
     </div>
@@ -807,17 +807,24 @@ const sticky = document.getElementById('sticky');
 window.addEventListener('scroll', () => sticky.classList.toggle('on', scrollY > 500));
 
 // ── DYNAMIC PRICING ──
+// Prix par palier de 2 jours — reset auto après le 3e palier
 const PRICES = [
-  {day:0, amt:17500, link:'https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=17500'},
-  {day:1, amt:19500, link:'https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19500'},
-  {day:2, amt:23500, link:'https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=23500'},
+  {amt:19900, link:'https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=19900'},
+  {amt:23900, link:'https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=23900'},
+  {amt:27900, link:'https://pay.wave.com/m/M_sn_Rhb7_Tv1vdWt/c/sn/?amount=27900'},
 ];
-const KEY = 'pa_launch_v2';
+const CYCLE_DAYS = 6; // 3 paliers × 2 jours = reset auto
+const KEY = 'pa_launch_v3';
+localStorage.removeItem('pa_launch_v2');
+localStorage.removeItem('pa_launch_v1');
 let launch = localStorage.getItem(KEY);
 if(!launch){ launch = Date.now().toString(); localStorage.setItem(KEY, launch); }
-const ms = Date.now() - parseInt(launch);
-const dayIdx = Math.min(Math.floor(ms/86400000), PRICES.length-1);
-const cur = PRICES[dayIdx];
+const msElapsed = Date.now() - parseInt(launch);
+const dayTotal  = Math.floor(msElapsed / 86400000);
+const dayInCycle = dayTotal % CYCLE_DAYS;           // 0-5 puis repart à 0
+const curPalier  = Math.floor(dayInCycle / 2);      // 0→palier0, 2→palier1, 4→palier2
+const cur        = PRICES[curPalier];
+const dayIdx     = curPalier;
 
 function fmt(n){ return n.toLocaleString('fr-FR') + ' FCFA'; }
 function applyPrice(p){
@@ -830,7 +837,7 @@ function applyPrice(p){
   document.getElementById('sol-wave-btn').href = p.link;
   document.getElementById('main-price').textContent = p.amt.toLocaleString('fr-FR');
   document.getElementById('main-wave-btn').href = p.link;
-  document.getElementById('main-wave-btn').lastChild.textContent = ' Je profite de l\'offre à ' + fmt(p.amt);
+  document.getElementById('main-wave-btn').childNodes[document.getElementById('main-wave-btn').childNodes.length-1].nodeValue = ' Je profite — ' + fmt(p.amt);
   document.getElementById('offer-pl').textContent = p.amt.toLocaleString('fr-FR');
   document.getElementById('offer-wave-btn2').href = p.link;
   document.getElementById('final-pl').textContent = p.amt.toLocaleString('fr-FR');
@@ -840,7 +847,10 @@ applyPrice(cur);
 
 // ── COUNTDOWN ──
 function eod(){
-  const d = new Date(parseInt(launch) + 86400000*(dayIdx+1));
+  // Fin du palier = début du prochain bloc de 2 jours
+  const nextBlock = (Math.floor(dayInCycle / 2) + 1) * 2;
+  const daysFromLaunch = Math.floor(dayTotal / CYCLE_DAYS) * CYCLE_DAYS + nextBlock;
+  const d = new Date(parseInt(launch) + 86400000 * daysFromLaunch);
   d.setHours(0,0,0,0); return d.getTime();
 }
 function tick(){
